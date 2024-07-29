@@ -6,27 +6,41 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
-    name: "Thankful Thoughts",
+    name: "XTABLES",
     description:
-      "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
-    image: "/thankfulthoughts.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
+      "XTABLES is a comprehensive server and client solution for data management and interaction, featuring mDNS integration and customizable logging.",
+    image: "/XTABLES.png",
+    github: "https://github.com/Kobeeeef/XTABLES",
     link: "https://thankfulthoughts.io/",
   },
   {
-    name: "PlatoIO",
-    description: "PlatoIO is a to do list app that built using the PERN stack.",
-    image: "/platoio.png",
-    github: "https://github.com/hqasmei/platoio",
-    link: "https://platoio.com/register",
+    name: "XDASH",
+    description: "XDASH is designed for XBOT Robotics to control all machines that host the cameras, AI models, and XTABLES.",
+    image: "/XDASH.png",
+    github: "https://github.com/Kobeeeef/XDASH",
+    link: "https://github.com/Kobeeeef/XDASH",
   },
   {
-    name: "Kator Family Photos",
+    name: "Minions",
+    description: "A fully made minecraft minions plugin with over 10 types that integrates seamlessly with other plugins.",
+    image: "/MINIONS.png",
+    github: "https://github.com/Kobeeeef/Minions",
+    link: "https://github.com/Kobeeeef/Minions",
+  },
+  {
+    name: "XCASTER",
+    description: "A simple tool to broadcast any hostname of a machine over the local network using mDNS.",
+    image: "/XCASTER.png",
+    github: "https://github.com/Kobeeeef/XCASTER",
+    link: "https://github.com/Kobeeeef/XCASTER",
+  },
+  {
+    name: "Moody",
     description:
-      "Kator Family Photos is a photos and video digitization service in the LA area.",
-    image: "/familyphotos.png",
-    github: "https://github.com/hqasmei/katorfamilyphotos",
-    link: "https://katorfamilyphotos.com/",
+      "Discover Moody, your all-in-one verified solution for supercharging your Discord server. Empower your community with a range of powerful features. (Deprecated)",
+    image: "/MOODY.png",
+    github: "https://github.com/Kobeeeef/Moody",
+    link: "https://dashboard-v4.vercel.app/",
   },
 ]
 
@@ -49,8 +63,8 @@ const ProjectsSection = () => {
                       <Image
                         src={project.image}
                         alt=""
-                        width={1000}
-                        height={1000}
+                        width={400}
+                        height={300}
                         className="rounded-xl shadow-xl hover:opacity-70"
                       />
                     </Link>
