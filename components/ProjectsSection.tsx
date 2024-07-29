@@ -11,7 +11,7 @@ const projects = [
       "XTABLES is a comprehensive server and client solution for data management and interaction, featuring mDNS integration and customizable logging.",
     image: "/XTABLES.png",
     github: "https://github.com/Kobeeeef/XTABLES",
-    link: "https://thankfulthoughts.io/",
+    link: "https://github.com/Kobeeeef/XTABLES",
   },
   {
     name: "XDASH",
